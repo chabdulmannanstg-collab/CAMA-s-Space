@@ -1,0 +1,121 @@
+<html>
+    <body> 
+        <style>{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: #0b0f1a;
+color: white;
+}
+
+header {
+text-align: center;
+padding: 30px;
+background: black;
+}
+
+nav {
+background: #11162a;
+text-align: center;
+padding: 10px;
+}
+
+nav a {
+color: white;
+margin: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #7aa2ff;
+}
+
+.hero {
+background-image: url('https://images-assets.nasa.gov/image/PIA24420/PIA24420~orig.jpg');
+background-size: cover;
+background-position: center;
+padding: 120px 20px;
+text-align: center;
+animation: fadeIn 2s;
+}
+
+.content {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 30px;
+}
+
+.card {
+background: #11162a;
+width: 280px;
+margin: 15px;
+padding: 20px;
+border-radius: 10px;
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.page {
+padding: 30px;
+text-align: center;
+}
+
+.page img {
+width: 80%;
+border-radius: 10px;
+margin: 20px 0;
+}
+
+form {
+max-width: 400px;
+margin: auto;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+border: none;
+}
+
+button {
+background: #7aa2ff;
+padding: 10px;
+border: none;
+color: black;
+font-weight: bold;
+cursor: pointer;
+}
+
+footer {
+text-align: center;
+padding: 10px;
+background: black;
+margin-top: 20px;
+}
+
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+.content {
+flex-direction: column;
+align-items: center;
+}
+}
+</style>
+</body>
+</html>
